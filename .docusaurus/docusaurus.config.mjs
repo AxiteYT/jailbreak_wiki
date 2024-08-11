@@ -7,7 +7,7 @@ export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://jailbreak.wiki",
   "baseUrl": "/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
