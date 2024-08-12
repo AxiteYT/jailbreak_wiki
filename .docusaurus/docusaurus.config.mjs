@@ -7,10 +7,10 @@ export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://jailbreak.wiki",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "axiteyt",
+  "projectName": "jailbreak_wiki",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/AxiteYT/jailbreak_wiki/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
           "showReadingTime": true,
@@ -38,7 +38,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/AxiteYT/jailbreak_wiki/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -67,7 +67,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/AxiteYT/jailbreak_wiki",
           "label": "GitHub",
           "position": "right"
         }
@@ -112,7 +112,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/AxiteYT/jailbreak_wiki"
             }
           ]
         }
