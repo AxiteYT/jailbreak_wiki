@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Jailbreak Wiki',
+  tagline: 'A jailbreak wiki for all hardware and software, made with Docusaurus, git and love. <3',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -17,6 +17,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'axiteyt', // Usually your GitHub org/user name.
   projectName: 'jailbreak_wiki', // Usually your repo name.
+  deploymentBranch: 'deployment',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

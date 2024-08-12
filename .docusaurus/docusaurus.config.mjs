@@ -4,13 +4,14 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Jailbreak Wiki",
+  "tagline": "A jailbreak wiki for all hardware and software, made with Docusaurus, git and love. <3",
   "favicon": "img/favicon.ico",
   "url": "https://jailbreak.wiki",
   "baseUrl": "/",
   "organizationName": "axiteyt",
   "projectName": "jailbreak_wiki",
+  "deploymentBranch": "deployment",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
