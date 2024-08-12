@@ -17,6 +17,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'axiteyt', // Usually your GitHub org/user name.
   projectName: 'jailbreak_wiki', // Usually your repo name.
+  deploymentBranch: 'deployment',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
