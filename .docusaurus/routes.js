@@ -1,109 +1,112 @@
-import React from 'react';
-import ComponentCreator from '@docusaurus/ComponentCreator';
+import React from "react";
+import ComponentCreator from "@docusaurus/ComponentCreator";
 
 export default [
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
-    exact: true
+    path: "/blog",
+    component: ComponentCreator("/blog", "b2f"),
+    exact: true,
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
-    exact: true
+    path: "/blog/archive",
+    component: ComponentCreator("/blog/archive", "182"),
+    exact: true,
   },
   {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
-    exact: true
+    path: "/blog/authors",
+    component: ComponentCreator("/blog/authors", "0b7"),
+    exact: true,
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
-    exact: true
+    path: "/blog/first-blog-post",
+    component: ComponentCreator("/blog/first-blog-post", "89a"),
+    exact: true,
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
-    exact: true
+    path: "/blog/long-blog-post",
+    component: ComponentCreator("/blog/long-blog-post", "9ad"),
+    exact: true,
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
-    exact: true
+    path: "/blog/mdx-blog-post",
+    component: ComponentCreator("/blog/mdx-blog-post", "e9f"),
+    exact: true,
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
-    exact: true
+    path: "/blog/tags",
+    component: ComponentCreator("/blog/tags", "287"),
+    exact: true,
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
-    exact: true
+    path: "/blog/tags/docusaurus",
+    component: ComponentCreator("/blog/tags/docusaurus", "704"),
+    exact: true,
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
-    exact: true
+    path: "/blog/tags/facebook",
+    component: ComponentCreator("/blog/tags/facebook", "858"),
+    exact: true,
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
-    exact: true
+    path: "/blog/tags/hello",
+    component: ComponentCreator("/blog/tags/hello", "299"),
+    exact: true,
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
-    exact: true
+    path: "/blog/tags/hola",
+    component: ComponentCreator("/blog/tags/hola", "00d"),
+    exact: true,
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd2b'),
-    exact: true
+    path: "/blog/welcome",
+    component: ComponentCreator("/blog/welcome", "d2b"),
+    exact: true,
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
+    path: "/markdown-page",
+    component: ComponentCreator("/markdown-page", "3d7"),
+    exact: true,
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '516'),
+    path: "/docs",
+    component: ComponentCreator("/docs", "516"),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', 'dee'),
+        path: "/docs",
+        component: ComponentCreator("/docs", "dee"),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '88d'),
+            path: "/docs",
+            component: ComponentCreator("/docs", "88d"),
             routes: [
               {
-                path: '/docs/Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN',
-                component: ComponentCreator('/docs/Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN', 'bf7'),
+                path: "/docs/Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN",
+                component: ComponentCreator(
+                  "/docs/Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN",
+                  "bf7"
+                ),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "tutorialSidebar",
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: "/docs/intro",
+                component: ComponentCreator("/docs/intro", "61d"),
                 exact: true,
-                sidebar: "tutorialSidebar"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+                sidebar: "tutorialSidebar",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
-    exact: true
+    path: "/",
+    component: ComponentCreator("/", "e5f"),
+    exact: true,
   },
   {
-    path: '*',
-    component: ComponentCreator('*'),
+    path: "*",
+    component: ComponentCreator("*"),
   },
 ];
