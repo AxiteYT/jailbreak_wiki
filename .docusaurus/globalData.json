@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "Hardware/Sony/Playstation/4/4",
+              "path": "/docs/Hardware/Sony/Playstation/4/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN",
               "path": "/docs/Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN",
               "sidebar": "tutorialSidebar"
@@ -18,6 +23,11 @@
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Software/Apple/iOS/ios",
+              "path": "/docs/Software/Apple/iOS/",
               "sidebar": "tutorialSidebar"
             }
           ],

@@ -17,7 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
+    "title": "Playstation 4",
+    "permalink": "/docs/Hardware/Sony/Playstation/4/"
+  },
+  "next": {
+    "title": "Apple iOS",
+    "permalink": "/docs/Software/Apple/iOS/"
   }
 }

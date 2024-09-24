@@ -58,8 +58,15 @@
   "frontMatter": {
     "slug": "welcome",
     "title": "Welcome",
-    "authors": ["slorber", "yangshun"],
-    "tags": ["facebook", "hello", "docusaurus"]
+    "authors": [
+      "slorber",
+      "yangshun"
+    ],
+    "tags": [
+      "facebook",
+      "hello",
+      "docusaurus"
+    ]
   },
   "unlisted": false,
   "nextItem": {
