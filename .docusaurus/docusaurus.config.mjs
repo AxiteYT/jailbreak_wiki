@@ -4,14 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Jailbreak Wiki",
-  "tagline": "A jailbreak wiki for all hardware and software, made with Docusaurus, git and love. <3",
+  "title": "My Site",
+  "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "url": "https://jailbreak.wiki",
+  "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
-  "organizationName": "axiteyt",
-  "projectName": "jailbreak_wiki",
-  "deploymentBranch": "deployment",
+  "organizationName": "facebook",
+  "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -28,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/AxiteYT/jailbreak_wiki/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
           "showReadingTime": true,
@@ -39,7 +38,10 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/AxiteYT/jailbreak_wiki/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "onInlineTags": "warn",
+          "onInlineAuthors": "warn",
+          "onUntruncatedBlogPosts": "warn"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -68,7 +70,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/AxiteYT/jailbreak_wiki",
+          "href": "https://github.com/facebook/docusaurus",
           "label": "GitHub",
           "position": "right"
         }
@@ -99,8 +101,8 @@ export default {
               "href": "https://discordapp.com/invite/docusaurus"
             },
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "X",
+              "href": "https://x.com/docusaurus"
             }
           ]
         },
@@ -113,7 +115,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/AxiteYT/jailbreak_wiki"
+              "href": "https://github.com/facebook/docusaurus"
             }
           ]
         }
@@ -349,6 +351,14 @@ export default {
   },
   "baseUrlIssueBanner": true,
   "future": {
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false
+    },
     "experimental_storage": {
       "type": "localStorage",
       "namespace": false
