@@ -1,1 +1,128 @@
-{"version":{"pluginId":"default","version":"current","label":"Next","banner":null,"badge":false,"noIndex":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","label":"Tutorial Intro","href":"/docs/intro","docId":"intro","unlisted":false},{"type":"category","label":"Hardware","collapsible":true,"collapsed":true,"items":[{"type":"category","label":"Sony","collapsible":true,"collapsed":true,"items":[{"type":"category","label":"Playstation","collapsible":true,"collapsed":true,"items":[{"type":"category","label":"Playstation 4","collapsible":true,"collapsed":true,"items":[{"type":"category","label":"Firmware Version","collapsible":true,"collapsed":true,"items":[{"type":"category","label":"11.0","collapsible":true,"collapsed":true,"items":[{"type":"link","label":"GoldHEN Exploit (2.4b17.3)","href":"/docs/Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN","docId":"Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN","unlisted":false}]}]}],"href":"/docs/Hardware/Sony/Playstation/4/"}]}]}]},{"type":"category","label":"Software","collapsible":true,"collapsed":true,"items":[{"type":"category","label":"Apple","collapsible":true,"collapsed":true,"items":[{"type":"link","label":"Apple iOS","href":"/docs/Software/Apple/iOS/","docId":"Software/Apple/iOS/ios","unlisted":false}]}]}]},"docs":{"Hardware/Sony/Playstation/4/4":{"id":"Hardware/Sony/Playstation/4/4","title":"Playstation 4","description":"Recomendations","sidebar":"tutorialSidebar"},"Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN":{"id":"Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN","title":"GoldHEN Exploit (2.4b17.3)","description":"TODO: Complete document","sidebar":"tutorialSidebar"},"intro":{"id":"intro","title":"Tutorial Intro","description":"Let's discover Docusaurus in less than 5 minutes.","sidebar":"tutorialSidebar"},"Software/Apple/iOS/ios":{"id":"Software/Apple/iOS/ios","title":"Apple iOS","description":"","sidebar":"tutorialSidebar"}}}}
+{
+  "version": {
+    "pluginId": "default",
+    "version": "current",
+    "label": "Next",
+    "banner": null,
+    "badge": false,
+    "noIndex": false,
+    "className": "docs-version-current",
+    "isLast": true,
+    "docsSidebars": {
+      "tutorialSidebar": [
+        {
+          "type": "link",
+          "label": "Tutorial Intro",
+          "href": "/docs/intro",
+          "docId": "intro",
+          "unlisted": false
+        },
+        {
+          "type": "category",
+          "label": "Hardware",
+          "collapsible": true,
+          "collapsed": true,
+          "items": [
+            {
+              "type": "category",
+              "label": "Sony",
+              "collapsible": true,
+              "collapsed": true,
+              "items": [
+                {
+                  "type": "category",
+                  "label": "Playstation",
+                  "collapsible": true,
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "type": "category",
+                      "label": "Playstation 4",
+                      "collapsible": true,
+                      "collapsed": true,
+                      "items": [
+                        {
+                          "type": "category",
+                          "label": "Firmware Version",
+                          "collapsible": true,
+                          "collapsed": true,
+                          "items": [
+                            {
+                              "type": "category",
+                              "label": "11.0",
+                              "collapsible": true,
+                              "collapsed": true,
+                              "items": [
+                                {
+                                  "type": "link",
+                                  "label": "GoldHEN Exploit (2.4b17.3)",
+                                  "href": "/docs/Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN",
+                                  "docId": "Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN",
+                                  "unlisted": false
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "/docs/Hardware/Sony/Playstation/4/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Software",
+          "collapsible": true,
+          "collapsed": true,
+          "items": [
+            {
+              "type": "category",
+              "label": "Apple",
+              "collapsible": true,
+              "collapsed": true,
+              "items": [
+                {
+                  "type": "link",
+                  "label": "Apple iOS",
+                  "href": "/docs/Software/Apple/iOS/",
+                  "docId": "Software/Apple/iOS/ios",
+                  "unlisted": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "docs": {
+      "Hardware/Sony/Playstation/4/4": {
+        "id": "Hardware/Sony/Playstation/4/4",
+        "title": "Playstation 4",
+        "description": "Recomendations",
+        "sidebar": "tutorialSidebar"
+      },
+      "Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN": {
+        "id": "Hardware/Sony/Playstation/4/Firmware Version/11.0/GoldHEN",
+        "title": "GoldHEN Exploit (2.4b17.3)",
+        "description": "TODO: Complete document",
+        "sidebar": "tutorialSidebar"
+      },
+      "intro": {
+        "id": "intro",
+        "title": "Tutorial Intro",
+        "description": "Let's discover Docusaurus in less than 5 minutes.",
+        "sidebar": "tutorialSidebar"
+      },
+      "Software/Apple/iOS/ios": {
+        "id": "Software/Apple/iOS/ios",
+        "title": "Apple iOS",
+        "description": "",
+        "sidebar": "tutorialSidebar"
+      }
+    }
+  }
+}
