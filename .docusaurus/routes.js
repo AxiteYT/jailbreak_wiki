@@ -79,19 +79,19 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e43'),
+    component: ComponentCreator('/docs', '5d3'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '890'),
+        component: ComponentCreator('/docs', '400'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'a2c'),
+            component: ComponentCreator('/docs', '53b'),
             routes: [
               {
-                path: '/docs/Hardware/Sony/Playstation/4/',
-                component: ComponentCreator('/docs/Hardware/Sony/Playstation/4/', '3b5'),
+                path: '/docs/Hardware/Sony/Playstation/4',
+                component: ComponentCreator('/docs/Hardware/Sony/Playstation/4', '266'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -108,8 +108,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Software/Apple/iOS/',
-                component: ComponentCreator('/docs/Software/Apple/iOS/', 'cfd'),
+                path: '/docs/Software/Apple/iOS',
+                component: ComponentCreator('/docs/Software/Apple/iOS', '6e2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

@@ -5,20 +5,22 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Jailbreak Wiki',
+  tagline: 'A jailbreak wiki for all hardware and software, made with Docusaurus, git and love. <3',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://jailbreak.wiki/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'AxiteYT', // Usually your GitHub org/user name.
+  projectName: 'jailbreak_wiki', // Usually your repo name.
+  trailingSlash: false, // Remove trailing slashes from URLs for GitHub pages
+  deploymentBranch: 'deployment', // The branch your site is deployed from
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
