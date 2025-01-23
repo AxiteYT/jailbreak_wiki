@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to the Jailbreak Wiki!
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This site is very much still under construction, if you have some experience, pull requests are very welcome at https://github.com/AxiteYT/jailbreak_wiki
